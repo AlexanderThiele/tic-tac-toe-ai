@@ -1,0 +1,5 @@
+klein==17.10.0
+numpy==1.14.2
+pyOpenSSL==17.5.0
+Twisted==17.9.0
+scipy

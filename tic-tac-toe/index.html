@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title>Tic Hac Toe</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="jquery.min.js"></script>
+    <script src="sugar-1.2.5.min.js"></script>
+    <script type="text/javascript" src="game.js"></script>
+  </head>
+  <body class="theme-01">
+    <h1>Tic Hac Toe</h1>
+
+    <div id="game-container"></div>
+
+    <script type="text/x-template" id="game-template">
+    <div id="menu-container">
+      <a href="#" title="Change Theme" id="theme" class="button">Theme: <span>1</span></a>
+
+      <ul id="menu" class="hidden">
+        <li id="time">Moves:</li>
+        <li id="status">Player X Wins!</li>
+        <li><a href="#restart" id="restart" class="button">RESTART</a></li>
+      </ul>
+    </div>
+
+    <Button id="neuralNetworkTurn" style="padding:2em;">Neural Network turn</Button>
+
+    <table id="game" cellpadding="0" cellspacing="0">
+      <tr>
+        <td id="f1"></td>
+        <td id="f2"></td>
+        <td id="f3"></td>
+      </tr>
+      <tr>
+        <td id="f4"></td>
+        <td id="f5"></td>
+        <td id="f6"></td>
+      </tr>
+      <tr>
+        <td id="f7"></td>
+        <td id="f8"></td>
+        <td id="f9"></td>
+      </tr>
+    </table>
+    </script>
+
+    <div id="main"></div>
+
+  <div id="footer">
+    Created by <a href="https://twitter.com/derekanderson">@derekanderson</a>
+    <span> | </span>
+    Source on <a href="https://github.com/mediaupstream/tic-tac-toe-js">Github.com</a>
+  </div>
+
+  </body>
+</html>
